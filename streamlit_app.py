@@ -5,7 +5,7 @@ import joblib
 # =========================================
 # Load Trained Model
 # =========================================
-model = joblib.load("../models/final_catboost_model.pkl")
+model = joblib.load("models/final_catboost_model.pkl")
 
 # =========================================
 # Streamlit Page Configuration
